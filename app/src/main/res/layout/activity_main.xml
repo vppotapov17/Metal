@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/updateDate"
+        android:text="Обновлено 25.05 в 14:40"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:fontFamily="@font/noah"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Золото"
+        app:layout_constraintTop_toBottomOf="@id/updateDate"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:fontFamily="@font/noah"
+        android:textSize="20dp"
+        android:id="@+id/goldTitle"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1900 $"
+        android:id="@+id/goldValue"
+        app:layout_constraintTop_toTopOf="@id/goldTitle"
+        app:layout_constraintBottom_toBottomOf="@id/goldTitle"
+        app:layout_constraintRight_toRightOf="parent"
+        android:fontFamily="@font/noah"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Серебро"
+        app:layout_constraintTop_toBottomOf="@id/goldTitle"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:fontFamily="@font/noah"
+        android:textSize="20dp"
+        android:id="@+id/silverTitle"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200 $"
+        android:id="@+id/silverValue"
+        app:layout_constraintTop_toTopOf="@id/silverTitle"
+        app:layout_constraintBottom_toBottomOf="@id/silverTitle"
+        app:layout_constraintRight_toRightOf="parent"
+        android:fontFamily="@font/noah"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Платина"
+        app:layout_constraintTop_toBottomOf="@id/silverTitle"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:fontFamily="@font/noah"
+        android:textSize="20dp"
+        android:id="@+id/platinumTitle"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200 $"
+        android:id="@+id/platinumValue"
+        app:layout_constraintTop_toTopOf="@id/platinumTitle"
+        app:layout_constraintBottom_toBottomOf="@id/platinumTitle"
+        app:layout_constraintRight_toRightOf="parent"
+        android:fontFamily="@font/noah"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Палладий"
+        app:layout_constraintTop_toBottomOf="@id/platinumTitle"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:fontFamily="@font/noah"
+        android:textSize="20dp"
+        android:id="@+id/palladiumTitle"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200 $"
+        android:id="@+id/palladiumValue"
+        app:layout_constraintTop_toTopOf="@id/palladiumTitle"
+        app:layout_constraintBottom_toBottomOf="@id/palladiumTitle"
+        app:layout_constraintRight_toRightOf="parent"
+        android:fontFamily="@font/noah"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
